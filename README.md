@@ -41,4 +41,19 @@ hello_world
 
 Next, while in the `hello_world` folder, run `node app.js`. It should print out a message saying your server is running! In your web browser, type in `http://localhost:3000/` and you should see the text "Hello World"
 
+### A Basic Express Server
+Next we will explore [Express](http://expressjs.com/) to refactor our `app.js` file into a more practical server. Express is a Javascript library that makes web servers much easier to write. In the `hello_world` folder, run `npm init`. You will be prompted for to input descriptions and project names, but on the `entry point` field, make sure to put `app.js`. Everything else can be left at defaults. The project directory should now look like this:
+```
+hello_world
+  |--app.js
+  |--node_modules
+       |-- <Node Packages>
+  |--package.json
+```
+
+`package.json` is where Node stores various metadata. The `node_modules` folder is where Node puts downloaded files for your project. Take care not to delete either of these! 
+
+//TODO
+
+
 
